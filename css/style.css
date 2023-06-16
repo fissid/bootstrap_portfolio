@@ -1,0 +1,22 @@
+.items, .collapse {
+    filter:grayscale(0.5);
+}
+.items:hover {
+    cursor: pointer;
+    filter:grayscale(0);
+}
+
+
+@media (min-width: 991px) {
+    .items {
+        padding: 2em 0 !important;
+    }
+
+}
+
+@media (min-width: 1199px) {
+    .items {
+        padding: 4em 0 !important;
+    }
+
+}
