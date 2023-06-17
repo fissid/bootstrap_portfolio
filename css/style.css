@@ -1,0 +1,28 @@
+.items, .collapse {
+    filter:grayscale(0.5);
+}
+.items:hover {
+    cursor: pointer;
+}
+#contact input::placeholder, #contact textarea::placeholder {
+    color: white;
+}
+
+#work img {
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 991px) {
+    .items {
+        padding: 2em 0 !important;
+    }
+
+}
+
+@media (min-width: 1199px) {
+    .items {
+        padding: 4em 0 !important;
+    }
+
+}
